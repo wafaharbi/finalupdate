@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ror1"
+    tools:context=".StudentUpdateInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/newbackground">
+
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:ems="10"
+        android:hint="Enter new Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/updateEmail"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="289dp"
+        android:ems="10"
+        android:hint="Enter new Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/updatePhone"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="365dp"
+        android:ems="10"
+        android:hint="Enter new Phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="22dp"
+
+        android:background="@drawable/update8"
+
+        android:onClick="update" />
+<!--
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/red"
+        android:onClick="delete"
+        android:text="Delete"
+        android:textColor="@color/White" />-->
+    <!-- <Button
+         android:id="@+id/btnDelete"
+         android:layout_width="112dp"
+         android:layout_height="48dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="76dp"
+         android:layout_marginBottom="87dp"
+         android:background="@color/red"
+
+         android:onClick="delete"
+         android:textColor="@color/White"
+         tools:text="delete" />-->
+
+    <TextView
+        android:id="@+id/stdID"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="73dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="380dp"
+        android:text="Student"
+        android:textSize="20dp"
+        android:textColor="@color/userType"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/changephoto"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        android:layout_marginBottom="319dp"
+        android:text="Change profile photo"
+        android:textColor="@color/userType"
+        android:textSize="17dp" />
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/settings_image"
+        android:layout_width="126dp"
+        android:layout_height="113dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:src="@drawable/default_img"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginRight="331dp"
+        android:text="Name"
+        android:textColorHint="@color/sen"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="333dp"
+        android:layout_marginRight="333dp"
+        android:text="Email"
+        android:textColorHint="@color/sen"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="325dp"
+        android:layout_marginRight="325dp"
+        android:text="Phone"
+        android:textColorHint="@color/sen"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</RelativeLayout>

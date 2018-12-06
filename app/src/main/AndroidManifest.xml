@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wafa.studentapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".SignupStudent" />
+        <activity android:name=".SignupParent" />
+        <activity android:name=".SignupTeacher" />
+        <activity
+            android:name=".LoginStudent"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".StudentHome"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgetPassword" />
+        <activity android:name=".StudentUpdateInfo" />
+        <activity
+            android:name=".ParentHome"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginParent"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginTeacher"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".TeacherInfo" />
+        <activity android:name=".TeacherUpdate" />
+        <activity android:name=".ParentUpadate" />
+        <activity android:name=".Notes" />
+        <activity android:name=".NewNote" />
+        <activity android:name=".FilesUpload" />
+        <activity android:name=".ViewUploadsActivity" />
+        <activity android:name=".CourseNames" />
+        <activity android:name=".StudentProfile" />
+        <activity
+            android:name=".UpdateProfile"
+            android:label="Update"
+            android:parentActivityName=".StudentProfile" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".StudentChatTeacher"
+            android:label="       Teacher names" />
+        <activity android:name=".MessageStudentTeacher" />
+        <activity android:name=".OtherUsersProfile" />
+        <activity android:name=".ParentProfile" />
+        <activity
+            android:name=".TeacherHome"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TeacherProfile" />
+        <activity android:name=".TeacherListChats" />
+        <activity
+            android:name=".TeacherChatsStudent"
+            android:label="       Student names" />
+        <activity android:name=".MessageTeacherStudent" />
+        <activity android:name=".T" />
+        <activity android:name=".OtherStudentProfile" />
+        <activity
+            android:name=".TeacherChatsParent"
+            android:label="       Parent names" />
+        <activity android:name=".MeassageTeacherParent" />
+        <activity android:name=".OtherParentProfile" />
+        <activity
+            android:name=".ParentChatTeacher"
+            android:label="       Teacher names" />
+        <activity android:name=".MessageParentTeacher" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".University" />
+        <activity android:name=".EventMain" />
+        <activity android:name=".EventDescription" />
+        <activity android:name=".ContactUS" />
+        <activity android:name=".ScheduleMain" />
+        <activity android:name=".CreateNote" />
+        <activity android:name=".Alert" />
+        <activity android:name=".Edit_Note" />
+        <activity android:name=".View_Note" />
+        <activity android:name=".Courses2" />
+        <activity android:name=".CourseIT473" />
+        <activity android:name=".editStudentIT473" />
+        <activity android:name=".IT473MarkUpdate" />
+        <activity android:name=".CourseSelectTI473" />
+        <activity android:name=".CourseCS383" />
+        <activity android:name=".editStudentCS383" />
+        <activity android:name=".CS383MarkUpdate" />
+        <activity android:name=".CourseSelectCS383" />
+        <activity android:name=".CourseSlectIT443" />
+        <activity android:name=".CourseIT443" />
+        <activity android:name=".editStudentIT443" />
+        <activity android:name=".IT443MarkUpdate" />
+        <activity android:name=".CourseSelectIT215" />
+        <activity android:name=".CourseIT215" />
+        <activity android:name=".editStudentIT215" />
+        <activity android:name=".IT215MarkUpdate" />
+        <activity android:name=".CourseSelectIT342" />
+        <activity android:name=".CourseIT342" />
+        <activity android:name=".editStudentIT342" />
+        <activity android:name=".IT342MarkUpdate" />
+        <activity android:name=".CourseSelectCS214" />
+        <activity android:name=".CourseCS214" />
+        <activity android:name=".editStudentCS214" />
+        <activity android:name=".CS214MarkUpdate" />
+        <activity android:name=".CourseViewInfo" />
+        <activity android:name=".CourseViewTI473" />
+        <activity android:name=".CourseStudentCS214" />
+        <activity android:name=".CourseStudentIT473" />
+        <activity android:name=".CourseViewCS383" />
+        <activity android:name=".CourseStudentCS383" />
+        <activity android:name=".CourseViewIT443" />
+        <activity android:name=".CourseStudentIT443" />
+        <activity android:name=".CourseViewIT215" />
+        <activity android:name=".CourseStudentIT215" />
+        <activity android:name=".CourseViewIT342" />
+        <activity android:name=".CourseStudentIT342" />
+        <activity android:name=".CourseViewCS214" />
+        <activity android:name=".FileView" />
+        <activity android:name=".CourseParent" />
+        <activity android:name=".CourseParentTI473" />
+        <activity android:name=".CourseParentCS383" />
+        <activity android:name=".CourseParentIT443" />
+        <activity android:name=".CourseParentIT215" />
+        <activity android:name=".CourseParentIT342" />
+        <activity android:name=".CourseParentCS214" />
+        <activity android:name=".AttendanceIT473" />
+        <activity android:name=".ToAttendanceIT473" />
+        <activity android:name=".AttendanceIT342" />
+        <activity android:name=".ToAttendanceIT342" />
+        <activity android:name=".AttendanceIT443" />
+        <activity android:name=".ToAttendanceIT443" />
+        <activity android:name=".AttendanceIT215" />
+        <activity android:name=".ToAttendanceIT215" />
+        <activity android:name=".AttendanceCS383" />
+        <activity android:name=".ToAttendanceCS383" />
+        <activity android:name=".AttendanceCS214" />
+        <activity android:name=".ToAttendanceCS214" />
+        <activity android:name=".TimeTable" />
+        <activity android:name=".NewTimeTable" />
+    </application>
+
+</manifest>

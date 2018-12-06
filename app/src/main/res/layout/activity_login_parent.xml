@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    tools:context=".LoginParent">
+
+    <EditText
+        android:id="@+id/editPlogin"
+        android:layout_width="236dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="287dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editElogin"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="211dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <!--<Button
+        android:id="@+id/btnSLA"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/loginbtn"
+        android:onClick="userloginStudent" />
+    -->
+
+
+    <!--    <TextView
+            android:id="@+id/textviewForget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginBottom="210dp"
+
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:text="Forget Password ? click here"
+            android:textSize="18sp" />-->
+
+
+    <!-- <Button
+         android:id="@+id/textViewSignup"
+         android:layout_width="225dp"
+         android:layout_height="48dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="80dp"
+         android:layout_marginBottom="50dp"
+         android:background="@drawable/signupbtn"
+         android:textColor="@android:color/background_dark"
+         android:textSize="18sp" />-->
+
+
+
+    <!--  <ImageView
+          android:id="@+id/imageView3"
+          android:layout_width="123dp"
+          android:layout_height="95dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="62dp"
+          app:srcCompat="@drawable/newlogo" />-->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="489dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/rectangle" />
+
+
+    <ImageView
+        android:id="@+id/btnSLA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewSignup"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginBottom="126dp"
+        android:onClick="userloginStudent"
+        app:srcCompat="@drawable/loginbtn8" />
+
+    <ImageView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="453dp"
+        android:layout_marginBottom="19dp"
+        app:srcCompat="@drawable/signupbtn8" />
+
+    <TextView
+        android:id="@+id/textviewForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginBottom="199dp"
+        android:text="Forget Password ? click here"
+        android:textColor="@color/darkgray"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="124dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        app:srcCompat="@drawable/newlogo" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="182dp"
+        android:text="Email"
+        android:textColor="@color/darkgray"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editPlogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginBottom="-281dp"
+        android:text="Password"
+        android:textColor="@color/darkgray"
+        android:textSize="18dp" />
+
+
+    <!--<EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName" />-->
+
+</RelativeLayout>
